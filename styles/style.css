@@ -41,3 +41,44 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+#onas
+{
+    margin-top: 50px;
+    font-size:40px;
+    text-align: center;
+}
+
+.description
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top:40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+#image
+{
+    float:left;
+    width: 300px;
+    border-left: 1px solid rgb(22, 0, 100);
+}
+#descriptionlist
+{
+    float:right;
+    margin-right: 10px;
+    width: 190px;
+}
+#descriptionlist > ol {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    line-height:300%;
+   }
+#inscription
+{
+    float:left;
+    width: 680px;
+    padding: 10px;
+}

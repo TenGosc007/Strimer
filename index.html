@@ -10,42 +10,78 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/style.css" type="text/css">
   <link rel="stylesheet" href="styles/menu.css" type="text/css">
+  <link rel="stylesheet" href="styles/loading.css" type="text/css">
   <link rel="shortcut icon" href="img/cewkaV3.ico"> <!-- ustawienie ikony strony -->
-  <link href="https://fonts.googleapis.com/css?family=Oswald|Staatliches&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|ZCOOL+KuaiLe&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class='container'>
-    <header>
-      <div class="nav">
-        <ol>
-          <li><a href="#kon">Kontakt</a></li>
-          <li><a href="#gal">Galeria</a></li>
-          <li><a href="#proj">Projekty</a></li>
-          <li><a href="#aktual">Aktualności</a></li>
-          <li><a href="#onas">O Nas</a></li>
-        </ol>
-      </div>
-
-      <div id="menuToggle">
-        <input type="checkbox" />
-        <span></span>
-        <span></span>
-        <span></span>
-        <ul id="menu">
-          <li><a href="#onas">O Nas</a></li>
-          <li><a href="#aktual">Aktualności</a></li>
-          <li><a href="#proj">Projekty</a></li>
-          <li><a href="#gal">Galeria</a></li>
-          <li><a href="#kon">Kontakt</a></li>
-        </ul>
-      </div>
-    </header>
-
-    <div class="image"></div>
-
-    
+  <div class="loader">
+    <span></span>
   </div>
+
+  <section class="main">
+    <div class='container'>
+      <header>
+        <div class="nav">
+          <ol>
+            <li><a href="#kon">Kontakt</a></li>
+            <li><a href="#gal">Galeria</a></li>
+            <li><a href="#proj">Projekty</a></li>
+            <li><a href="#aktual">Aktualności</a></li>
+            <li><a href="#onas">O Nas</a></li>
+          </ol>
+        </div>
+
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <li><a href="#onas">O Nas</a></li>
+            <li><a href="#aktual">Aktualności</a></li>
+            <li><a href="#proj">Projekty</a></li>
+            <li><a href="#gal">Galeria</a></li>
+            <li><a href="#kon">Kontakt</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <div class="image"></div>
+
+      <div id="onas"> Informacja o Nas </div>
+
+      <div class="description">
+        <div id="image"><img src="obrazy/ja.png" alt="Moje Zdjęcie" height="300" width="300"> </div>
+        <div id="descriptionlist">
+          <ol>
+            <li>Zamieszkanie: Wrocław</li>
+            <li>Telefon: </li>
+            <li>E-mail: </li>
+          </ol>
+        </div>
+        <div id="inscription"> Zajmujemy się szeroko pojętą elektrycznością, a w szczególności energoelektroniką, elektroniką,
+          wysokimi napięciami, automatyką i robotyką, techniką mikroprocesorową, elektromechaniką oraz popularyzacją
+          nauki w zakresie zjawisk elektrycznych.<br>
+          U nas nauczysz się samodzielnie wytrawiać płytkę PCB, projektować proste układy elektroniczne, a potem lutować
+          je i składać. Posiadamy szereg narzędzi niezbędnych do realizacji projektów.<br>
+          Nasi członkowie, przyszli inżynierowie elektrycy, uczestniczą w ciekawych wycieczkach do elektrowni (np.
+          Bełchatów), fabryk (np. Alstom), na stacje elektroenergetyczne oraz w występach edukacyjnych (np. Teatr
+          Wysokich Napięć w Centrum Nauki Kopernik w Warszawie). Organizujemy lub współorganizujemy różnorodne
+          szkolenia, m.in. z pomiarów termowizyjnych, umiejętności miękkich.<br>
+          Chętnie przyjmiemy w swoje szeregi osoby chcące rozwijać swoje zdolności. Obecnie nasze prace koncentrują się
+          na dopracowaniu rozpoczętych projektów (m.in. cewka Tesli, drabina Jakubowa, system pomiarowy elektrowni
+          hybrydowej) oraz rozpoczynamy pracę nad nowym projektem.<br>
+          Zapraszamy do lajkowania naszego profilu na facebooku StrimerPWr, gdzie znajdziecie aktualności, zdjęcia i
+          inne informacje.<br>
+        </div>
+        <div style="clear:both"></div>
+      </div>
+
+    </div>
+  </section>
+  <script src="main.js"></script>
 </body>
 
 </html>

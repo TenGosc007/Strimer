@@ -10,5 +10,4 @@ function init() {
     setTimeout(() => (main.style.opacity = 1), 50);
   }, 2000);
 }
-
 init();

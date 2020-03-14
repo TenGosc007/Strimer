@@ -1,37 +1,40 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|ZCOOL+KuaiLe&display=swap");
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Lato", sans-serif;
-  font-size: 20px;
-  line-height: 1.6;
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  flex-direction: column;
-  min-height: 100vh;
-} 
-
-.main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* text-align: center; */
-  opacity: 0;
-  display: none;
-  transition: opacity 1s ease-in;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+    background-color: white;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.container
-{
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    opacity: 0;
+    display: none;
+    transition: opacity 1s ease-in;
+}
+
+.container {
     width: 100%;
 }
 
-.image
-{
+.image {
     background-image: url("../img/logoB&W.png");
     width: 100%;
     height: 500px;
@@ -42,43 +45,73 @@ body {
     background-size: contain;
 }
 
-#onas
-{
+#onas {
     margin-top: 50px;
-    font-size:40px;
+    font-size: 40px;
     text-align: center;
+    behavior: 'smooth';
 }
 
-.description
-{
+#aktual {
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    behavior: 'smooth';
+}
+
+#proj {
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    behavior: 'smooth';
+}
+
+#kon {
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    behavior: 'smooth';
+}
+
+.description {
     display: flex;
     flex-direction: row;
-    justify-content:center;
-    margin-top:40px;
+    justify-content: center;
+    margin-top: 40px;
     margin-bottom: 40px;
     flex-wrap: wrap;
 }
-#image
-{
-    float:left;
+
+#image {
+    float: left;
     width: 300px;
     border-left: 1px solid rgb(22, 0, 100);
 }
-#descriptionlist
-{
-    float:right;
+
+#descriptionlist {
+    float: right;
     margin-right: 10px;
     width: 190px;
 }
-#descriptionlist > ol {
-    list-style-type: none; 
+
+#descriptionlist>ol {
+    list-style-type: none;
     padding: 0;
     margin: 0;
-    line-height:300%;
-   }
-#inscription
-{
-    float:left;
+    line-height: 300%;
+}
+
+#inscription {
+    float: left;
     width: 680px;
     padding: 10px;
+}
+
+.stopka
+{
+    text-align: center;
+    background-color: rgb(22, 48, 100);
+    color: silver;
+    font-size: 15px;
+    width: 100%;
 }

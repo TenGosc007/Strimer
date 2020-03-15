@@ -52,11 +52,29 @@ body {
     behavior: 'smooth';
 }
 
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+#inscription {
+    text-align: justify;
+    max-width: 600px;
+    float: left;
+    padding: 10px;
+    margin-right: 20px;
+}
+
 #aktual {
     margin-top: 50px;
     font-size: 40px;
     text-align: center;
     behavior: 'smooth';
+
 }
 
 #proj {
@@ -73,42 +91,26 @@ body {
     behavior: 'smooth';
 }
 
-.description {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    flex-wrap: wrap;
+.contact {
+    background-color: rgba(22, 48, 100, 0.9);
+    width: 400px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 1);
+    box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 1);
+
 }
 
-#image {
-    float: left;
-    width: 300px;
-    border-left: 1px solid rgb(22, 0, 100);
+.contact_details {
+    color: snow;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
-#descriptionlist {
-    float: right;
-    margin-right: 10px;
-    width: 190px;
-}
-
-#descriptionlist>ol {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    line-height: 300%;
-}
-
-#inscription {
-    float: left;
-    width: 680px;
-    padding: 10px;
-}
-
-.stopka
-{
+.stopka {
     text-align: center;
     background-color: rgb(22, 48, 100);
     color: silver;

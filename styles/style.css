@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|ZCOOL+KuaiLe&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+    background-color: white;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    opacity: 0;
+    display: none;
+    transition: opacity 1s ease-in;
+}
+
+.container {
+    width: 100%;
+}
+
+.image {
+    background-image: url("../img/logoB&W.png");
+    width: 100%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#onas {
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    behavior: 'smooth';
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+#inscription {
+    text-align: justify;
+    max-width: 600px;
+    float: left;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#aktual {
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    behavior: 'smooth';
+}
+
+.fb-page {
+    text-align: center;
+}
+
+#proj {
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    behavior: 'smooth';
+}
+
+#kon {
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    behavior: 'smooth';
+}
+
+.contact {
+    background-color: rgba(22, 48, 100, 0.9);
+    max-width: 400px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 1);
+    box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 1);
+
+}
+
+.contact_details {
+    color: snow;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.stopka {
+    text-align: center;
+    background-color: rgb(22, 48, 100);
+    color: silver;
+    font-size: 15px;
+    width: 100%;
+}

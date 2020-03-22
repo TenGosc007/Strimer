@@ -8,58 +8,59 @@
   <meta name="keywords" content="Aleksander Atamańczuk, Strimer, koło naukowe, politechnika wrocławska,internet" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/style.css" type="text/css">
-  <link rel="stylesheet" href="styles/menu.css" type="text/css">
-  <link rel="stylesheet" href="styles/loading.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/menu.css" type="text/css">
+  <!-- <link rel="stylesheet" href="css/loading.css" type="text/css"> -->
   <link rel="shortcut icon" href="img/cewkaV3.ico"> <!-- ustawienie ikony strony -->
   <link href="https://fonts.googleapis.com/css?family=Lato|ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 </head>
 
 <body>
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous"
-    src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v6.0&appId=201174064551839&autoLogAppEvents=1">
-  </script>
-  <div class="loader">
+  <!-- <div class="loader">
     <span></span>
   </div>
+  <section class="main"> -->
 
-  <section class="main">
-    <div class='container'>
-      <header>
-        <div class="nav">
-          <ol>
-            <li><a href="#kon">Kontakt</a></li>
-            <li><a href="#gal">Galeria</a></li>
-            <li><a href="#proj">Projekty</a></li>
-            <li><a href="#aktual">Aktualności</a></li>
-            <li><a href="#onas">O Nas</a></li>
-            <li><a href="#">Home</a></li>
-          </ol>
-        </div>
+  <nav class='container'>
+    <header id="main-header">
+      <div class="header-image"></div>
+    </header>
+    <hr>
 
-        <div id="menuToggle">
-          <input type="checkbox" />
-          <span></span>
-          <span></span>
-          <span></span>
-          <ul id="menu">
-            <li><a href="#onas">O Nas</a></li>
-            <li><a href="#aktual">Aktualności</a></li>
-            <li><a href="#proj">Projekty</a></li>
-            <li><a href="#gal">Galeria</a></li>
-            <li><a href="#kon">Kontakt</a></li>
-          </ul>
-        </div>
-      </header>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about-us">O Nas</a></li>
+        <li><a href="#news">Aktualności</a></li>
+        <li><a href="#projects">Projekty</a></li>
+        <li><a href="#gal">Galeria</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+    <div id="menuToggle">
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <li><a href="#about-us">O Nas</a></li>
+        <li><a href="#aktual">Aktualności</a></li>
+        <li><a href="#proj">Projekty</a></li>
+        <li><a href="#gal">Galeria</a></li>
+        <li><a href="#kon">Kontakt</a></li>
+      </ul>
+    </div>
 
-      <div class="image"></div>
+    <br>
+    <section id="showcase">
+      <h1>Koło Naukowe STRIMER</h1>
+    </section>
 
-      <div id="onas"> Informacja o Nas </div>
-
-      <div class="description">
-        <div id="inscription">
-          Zajmujemy się szeroko pojętą elektrycznością, a w szczególności energoelektroniką,
+    <div class="information">
+      <section id="about-us">
+        <div class="title">Informacja o Nas</div>
+        <p>Zajmujemy się szeroko pojętą elektrycznością, a w szczególności energoelektroniką,
           elektroniką,
           wysokimi napięciami, automatyką i robotyką, techniką mikroprocesorową, elektromechaniką oraz popularyzacją
           nauki w zakresie zjawisk elektrycznych.<br>
@@ -76,46 +77,43 @@
           hybrydowej) oraz rozpoczynamy pracę nad nowym projektem.<br>
           Zapraszamy do lajkowania naszego profilu na facebooku StrimerPWr, gdzie znajdziecie aktualności, zdjęcia i
           inne informacje.<br>
+        </p>
+      </section>
+
+      <section id="news">
+        <div class="title">Aktualności</div>
+        <div class="facebook-style">
+          <iframe data-wow-duration="2s" data-wow-delay=".3s" name="f1edfceda5f753" frameborder="0"
+            allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media"
+            title="fb:page Facebook Social Plugin"
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FStrimerPWr&tabs=timeline&width=880&height=900&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=201174064551839"
+            style="border: none; visibility: visible; width: 500px; height: 100%;"></iframe>
         </div>
-
-        <div>
-          <div id="aktual"> Aktualności </div>
-
-          <div class="fb-page" data-href="https://www.facebook.com/StrimerPWr" allowtransparency="true"
-            allowfullscreen="true" data-tabs="timeline"
-            style="border: medium none; visibility: visible; width: 1500px; height: 550px; animation-duration: 2s; animation-delay: 0.3s; animation-name: fadeIn;"
-            width="1500px" height="550px" frameborder="0" data-small-header="false" data-adapt-container-width="true"
-            data-hide-cover="false" data-show-facepile="false">
-            <blockquote cite="https://www.facebook.com/StrimerPWr" class="fb-xfbml-parse-ignore"><a
-                href="https://www.facebook.com/StrimerPWr">Strimer PWr<br><img src="img/Facebook_icon.png"
-                  height="95"></a></blockquote>
-          </div>
-
-        </div>
-        <div style="clear:both"></div>
-      </div>
-
-      <div id="proj"> Nasze Projekty </div>
-
-      <div id="kon"> Kontakt </div>
-      <br>
-      <div class="contact">
-        <div class="contact_details">
-          <label>Strimer PWr <br>
-            Janiszewskiego 8
-            50-370 Wrocław
-          </label>
-          <div class="mail">
-            <label> E-mail: snsstrimer@gmail.com</label>
-          </div>
-        </div>
-      </div>
-      <br>
-
+      </section>
     </div>
-    <div class="stopka">Aleksander Atamańczuk &copy; 2020</div>
-  </section> -->
- <script src="js/main.js"></script>
+
+    <section id="projects">
+      <div class="title">Projekty</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h4>Strimer PWr</h4>
+      <h4>Janiszewskiego 8 50-370 Wrocław</h4>
+      <h4>E-mail: snsstrimer@gmail.com</h4>
+    </section>
+
+    <div id="main-footer">
+      <p>Copyright &copy; 2020 STRIMER</p>
+    </div>
+    <!-- </section> -->
+    <!-- <script src="js/main.js"></script> -->
 </body>
 
 </html>

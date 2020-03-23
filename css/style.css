@@ -38,7 +38,7 @@ body {
 #main-header {
     padding-top: 12px;
     width: 80%;
-    margin:auto;
+    margin: auto;
 }
 
 .header-image {
@@ -78,6 +78,16 @@ body {
     flex-wrap: wrap;
 }
 
+.title {
+    padding: 30px 15px;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 40px;
+    behavior: 'smooth';
+    line-height: 1.2;
+    color: #222;
+}
+
 #about-us {
     display: flex;
     flex-direction: row;
@@ -90,16 +100,6 @@ body {
 #about-us p {
     text-align: justify;
     justify-content: center;
-}
-
-.title {
-    padding: 30px 15px;
-    font-weight: bold;
-    margin-top: 50px;
-    font-size: 40px;
-    behavior: 'smooth';
-    line-height: 1.2;
-    color: #222;
 }
 
 #news {
@@ -133,11 +133,70 @@ body {
 }
 
 #projects {
-    text-align: justify;
-    width: 100%;
     margin-top: 50px;
     padding: 10px;
-    box-sizing: border-box;
+}
+
+
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-image {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    min-width: 275px;
+    height: 180px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.box-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-image img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.box1 {
+    width: 330px;
+    height: 100%;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.1);
+}
+
+.box1 p {
+    padding: 10px;
+}
+
+.box2 {
+    width: 330px;
+    height: 100%;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.1);
+}
+
+.box2 p {
+    padding: 10px;
+}
+
+.box3 {
+    width: 330px;
+    height: 100%;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.1);
+}
+
+.box3 p {
+    padding: 10px;
 }
 
 #contact {
@@ -146,6 +205,8 @@ body {
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
     -webkit-box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 1);
     -moz-box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 1);
     box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 1);
@@ -156,7 +217,7 @@ body {
     text-align: center;
 }
 
-#main-footer{
+#main-footer {
     text-align: center;
     background-color: rgb(22, 48, 100);
     color: silver;

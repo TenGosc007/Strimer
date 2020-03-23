@@ -26,7 +26,9 @@ body {
 }
 
 #main-header {
-    margin-top: 12px;
+    padding-top: 12px;
+    width: 80%;
+    margin:auto;
 }
 
 .header-image {
@@ -64,27 +66,30 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 
 #about-us {
-    text-align: justify;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     margin-bottom: 40px;
     flex-wrap: wrap;
     max-width: 50%;
     padding-right: 30px;
 }
 
+#about-us p {
+    text-align: justify;
+    justify-content: center;
+}
+
 .title {
+    padding: 30px 15px;
     font-weight: bold;
     margin-top: 50px;
     font-size: 40px;
-    text-align: top;
     behavior: 'smooth';
-    padding: 30px;
+    line-height: 1.2;
+    color: #222;
 }
 
 #news {
@@ -95,14 +100,26 @@ body {
     min-height: 400px;
 }
 
-.facebook-style {
+.facebook-big {
+    display: none;
     float: none;
     width: 100%;
     height: 100%;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.05);
-    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.facebook-small {
+    display: none;
+    float: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.05);
+    margin-bottom: 30px;
 }
 
 #projects {
@@ -129,33 +146,23 @@ body {
     text-align: center;
 }
 
-
-
-.contact {
-    background-color: rgba(22, 48, 100, 0.9);
-    max-width: 400px;
-    padding: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    -webkit-box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 1);
-    -moz-box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 1);
-    box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 1);
-
-}
-
-.contact_details {
-    color: snow;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
 #main-footer{
     text-align: center;
     background-color: rgb(22, 48, 100);
     color: silver;
     font-size: 15px;
     width: 100%;
+}
+
+@media(max-width:1300px) {
+    #about-us {
+        max-width: 100%;
+    }
+
+    #news {
+        height: 600px;
+        padding-bottom: 50px;
+    }
 }
 
 @media(max-width:600px) {
@@ -178,6 +185,27 @@ body {
 
     #news {
         padding-left: 0;
-
+        width: 100%;
     }
+}
+
+@media only screen and (max-width:500px) {
+    .facebook-small {
+        display: block;
+        width: 100%;
+    }
+
+    #news {
+        padding-left: 0;
+        width: 300px;
+    }
+
+}
+
+@media only screen and (min-width:500px) {
+    .facebook-big {
+        display: block;
+        width: 100%;
+    }
+
 }

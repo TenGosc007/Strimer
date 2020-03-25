@@ -7,15 +7,14 @@
   float: right;
   color: #333;
   font-weight: 600;
-
 }
 
 #navbar ul {
+  width: 90%;
   list-style-type: none;
   list-style: none;
   height: 40px;
-  margin: 0;
-  padding: 0;
+  padding-top: 10px;
   line-height: 200%;
 }
 

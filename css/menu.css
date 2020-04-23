@@ -23,7 +23,9 @@
 }
 
 #main-header #header-image img {
-  height: 50px;
+  padding-top: 8px;
+  margin: -19px 0 0 0;
+  height: 70px;
 }
 
 #main-header #navbar{

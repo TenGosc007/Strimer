@@ -23,33 +23,34 @@
   <section class="main">
 
     <header id="main-header">
-      <div class="header-image"></div>
+      <div class="container">
+        <div id="header-image">
+          <img src="img/logo_czysteb&w.png">
+        </div>
+        <nav id="navbar">
+          <ul>
+            <li><a href="#about-us">O Nas</a></li>
+            <li><a href="#news">Aktualności</a></li>
+            <li><a href="#projects">Projekty</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <li><a href="#about-us">O Nas</a></li>
+          <li><a href="#news">Aktualności</a></li>
+          <li><a href="#projects">Projekty</a></li>
+          <li><a href="#gallery">Galeria</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </div>
     </header>
-    <hr>
-
-    <nav id="navbar">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about-us">O Nas</a></li>
-        <li><a href="#news">Aktualności</a></li>
-        <li><a href="#projects">Projekty</a></li>
-        <li><a href="#gallery">Galeria</a></li>
-        <li><a href="#contact">Kontakt</a></li>
-      </ul>
-    </nav>
-    <div id="menuToggle">
-      <input type="checkbox" />
-      <span></span>
-      <span></span>
-      <span></span>
-      <ul id="menu">
-        <li><a href="#about-us">O Nas</a></li>
-        <li><a href="#news">Aktualności</a></li>
-        <li><a href="#projects">Projekty</a></li>
-        <li><a href="#gallery">Galeria</a></li>
-        <li><a href="#contact">Kontakt</a></li>
-      </ul>
-    </div>
 
     <br>
     <section id="showcase">
@@ -104,29 +105,74 @@
         <div class="rows">
           <div class="box1">
             <div class="box-image"><img src="img/plytki.jpg"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis debitis temporibus beatae officia
-              nobis nam nesciunt provident hic, in quas similique tempora? Dignissimos, praesentium expedita porro at
-              laboriosam fugit obcaecati.</p>
+            <h3>Badanie połączeń elektrycznych</h3>
+            <p>Niejeden z Was na pewno zastanawiał się kiedyś który rodzaj połączenia przewodów jest lepszy –
+              złączka skręcana czy szybkozłączka? Zamiennik czy oryginał?
+              Nasz test wykonany w warunkach laboratoryjnych z pewnością to wykaże.</p>
           </div>
           <div class="box2">
             <div class="box-image"><img src="img/luk.jpg"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis debitis temporibus beatae officia
-              nobis nam nesciunt provident hic, in quas similique tempora? Dignissimos, praesentium expedita porro at
-              laboriosam fugit obcaecati.</p>
+            <h3>Stanowisko do badania łuku elektrycznego</h3>
+            <p>Z łukiem elektrycznym nie ma żartów – jednak przy pomocy naszego stanowiska można w bezpieczny
+              sposób dowiedzieć się jakie są przyczyny jego powstawania i jak skutecznie radzić sobie z jego
+              gaszeniem zarówno przy prądzie stałym jak i przemiennym.</p>
           </div>
           <div class="box3">
             <div class="box-image"><img src="img/tesla.jpg"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis debitis temporibus beatae officia
-              nobis nam nesciunt provident hic, in quas similique tempora? Dignissimos, praesentium expedita porro at
-              laboriosam fugit obcaecati.</p>
+            <h3>Cewka Tesli</h3>
+            <p>Z pewnością nasz najbardziej widowiskowy projekt. Ogromne napięcia, wytwarzane dzięki zjawisku
+              rezonansu elektrycznego, są zdolne do wytwarzania wyładowań o długości kilkudziesięciu centymetrów.</p>
+          </div>
+          <div class="box3">
+            <div class="box-image"><img src="img/drabina.jpg"></div>
+            <h3>Drabina Jakubowa</h3>
+            <p>Kolejny projekt związany z łukiem elektrycznym – do jego wytworzenia jest wykorzystywany układ
+              energoelektroniczny oraz transformatory wytwarzające wysokie napięcie, rzędu kilkudziesięciu kilowoltów.
+              Wyładowania dzielnie wspinają się po „drabinie” dzięki zjawisku konwekcji.</p>
+          </div>
+          <div class="box3">
+            <div class="box-image"><img src="img/elektrownia.jpg"></div>
+            <h3>Elektrownia hybrydowa</h3>
+            <p>Energia odnawialna staje się w dzisiejszych czasach coraz istotniejszym tematem, dlatego i my chcemy
+              pomóc środowisku. Prototyp elektrowni wiatrowo – słonecznej pozwoli na sprawdzenie optymalnych rozwiązań
+              związanych z „zieloną” energetyką.</p>
+          </div>
+          <div class="box3">
+            <div class="box-image"><img src="img/projekt.jpg"></div>
+            <h3>Twój projekt</h3>
+            <p>A może masz pomysł na swój projekt? Jeśli tak, skontaktuj się z nami i podziel swoim pomysłem,
+              być może będzie to początek wspaniałej współpracy!!! </p>
           </div>
         </div>
       </section>
 
       <section id="contact">
-        <h4>Strimer PWr</h4>
-        <h4>Janiszewskiego 8 50-370 Wrocław</h4>
-        <h4>E-mail: snsstrimer@gmail.com</h4>
+        <div id="contact-info">
+          <div class="title">Kontakt</div>
+          <div id="contact-list">
+            <ul>
+              <li>
+                <div class="hall_location">Dane kontaktowe</div>
+              </li>
+              <li>
+                <p>Strimer PWr</p><span>Janiszewskiego 8<br> 50-370 Wrocław</span>
+              </li>
+              <li>
+                <p>E-mail</p><span>snsstrimer@gmail.com</span>
+              </li>
+              <!--<li><p>Phone</p><span>+77 0251 215 1235</span><br><span>+77 0251 215 1235</span></li>-->
+            </ul>
+          </div>
+        </div>
+        <div class="google_map">
+          <div class="gmap" style="overflow: hidden;">
+            <div id="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.0577830202515!2d17.05978251596127!3d51.10739404769125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb4c356ed4d00bcb2!2sWydzia%C5%82+Elektryczny!5e0!3m2!1spl!2spl!4v1541614042656&language=pl"
+                width="100%" height="500" frameborder="0" style="border:0" allowfullscreen async defer></iframe>
+            </div>
+          </div><!-- Ends: .gmap -->
+        </div>
       </section>
     </nav>
 

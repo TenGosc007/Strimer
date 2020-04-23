@@ -1,9 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -12,16 +6,21 @@ html {
     opacity: 0;
     display: none;
     transition: opacity 1s ease-in;
+    background: rgba(255, 255, 255, 0.3);
+
 }
 
 body {
+    background-image: url(../img/linedpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #fff;
     color: #555;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
+    padding: 0;
     margin: 0;
 }
 
@@ -32,23 +31,9 @@ body {
     overflow: hidden;
 }
 
-#main-header {
-    padding-top: 12px;
-    width: 80%;
-    margin: auto;
-}
-
-.header-image {
-    background-image: url("../img/logo_czysteb&w.png");
-    height: 40px;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    box-sizing: border-box;
-}
-
 #showcase {
-    background-image: url('../img/makietaV2.png');
+    
+    background-image: url('../img/makietaV2.jpg');
     background-position: center;
     height: 500px;
     text-align: center;
@@ -56,7 +41,7 @@ body {
     background-size: cover;
     box-sizing: border-box;
     margin-bottom: 30px;
-    margin-top: 40px;
+    margin-top: 0px;
     padding-top: 50px;
 }
 
@@ -74,10 +59,6 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
 }
-
-/* .information section {
-    border: 1px #ccc solid;
-} */
 
 .title {
     padding: 30px 15px;
@@ -100,6 +81,9 @@ body {
 }
 
 #about-us p {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 30px;
     text-align: justify;
     justify-content: center;
 }
@@ -114,24 +98,25 @@ body {
 }
 
 .facebook-big {
+    margin: auto;
     display: none;
     float: none;
-    width: 100%;
+    max-width: 500px;
     height: 100%;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.05);
+    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.25);
     margin-bottom: 30px;
 }
 
 .facebook-small {
     display: none;
     float: none;
-    width: 100%;
+    max-width: 300px;
     height: 100%;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.05);
+    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.25);
     margin-bottom: 30px;
 }
 
@@ -144,6 +129,11 @@ body {
 .rows {
     display: flex;
     flex-wrap: wrap;
+}
+
+.rows h3 {
+    padding: 0 10px;
+    margin: 0;
 }
 
 .box-image {
@@ -167,12 +157,13 @@ body {
 }
 
 .box1 {
+    background: rgba(255, 255, 255, 0.8);
     flex: 1;
     width: 330px;
     height: 100%;
     margin: 10px;
     border-radius: 20px;
-    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.1);
+    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.25);
 }
 
 .box1 p {
@@ -180,12 +171,13 @@ body {
 }
 
 .box2 {
+    background: rgba(255, 255, 255, 0.8);
     flex: 1;
     width: 330px;
     height: 100%;
     margin: 10px;
     border-radius: 20px;
-    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.1);
+    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.25);
 }
 
 .box2 p {
@@ -193,12 +185,13 @@ body {
 }
 
 .box3 {
+    background: rgba(255, 255, 255, 0.8);
     flex: 1;
     width: 330px;
     height: 100%;
     margin: 10px;
     border-radius: 20px;
-    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.1);
+    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.25);
 }
 
 .box3 p {
@@ -206,21 +199,71 @@ body {
 }
 
 #contact {
-    background-color: rgba(22, 48, 100, 0.9);
-    max-width: 400px;
-    padding: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    -webkit-box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 1);
-    -moz-box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 1);
-    box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 1);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
-    color: snow;
-    margin-left: auto;
-    margin-right: auto;
+.google_map {
+    flex: 1;
     text-align: center;
+    padding-left: 30px;
+    box-sizing: border-box;
+    min-width: 300px;
+}
+
+#contact-info {
+    flex: 1;
+    text-align: center;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+#contact-info .title {
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 40px;
+    behavior: 'smooth';
+    line-height: 1.2;
+    color: #222;
+}
+
+#contact-list {
+    border-radius: 20px;
+    box-shadow: 5px 9px 49px 0px rgba(47, 47, 47, 0.25);
+    padding: 60px 0px;
+    margin-bottom: 40px;
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    position: relative;
+}
+
+#contact-list ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+#contact-list ul li {
+    list-style: outside none none;
+    list-style-type: none;
+    margin-bottom: 25px;
+    line-height: 22px;
+}
+
+#contact-list p {
+    margin: 0;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2f2f2f;
+    margin-bottom: 5px;
+}
+
+.hall_location {
+    color: #bc2611;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 #main-footer {

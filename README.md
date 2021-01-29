@@ -8,11 +8,6 @@ Stworzenie strony zawierającej najważniejsze informacje dotyczące koła nauko
 - Projekty
 - Kontakt i skład zarządu
 
-## TODO
-- [X] Stworzenie repozytorium i podstawowej struktury projektu
-- [ ] Ustalenie workflow i wymagań projektu
-- [ ] ...
-
 ## Praca z projektem
 Aby uruchomić aplikację należy otworzyć plik index.html w programie Visual Studio Code, kliknąć prawym przyciskiem myszki na dowolne miejsce w edytorze i z listy wybrać funkcję "open with live server".
 

@@ -13,7 +13,7 @@
   font-size: 16px;
 }
 
-#main-header li{
+#main-header li {
   display: inline;
   padding: 0 20px 0 20px;
 }
@@ -28,7 +28,7 @@
   height: 70px;
 }
 
-#main-header #navbar{
+#main-header #navbar {
   float: right;
   font-weight: 600;
 }
@@ -47,6 +47,8 @@
   position: relative;
   top: 50px;
   left: 40px;
+  display: block;
+  width: 33px;
 
   z-index: 1;
 
@@ -89,9 +91,8 @@
 
   transform-origin: 4px 0px;
 
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-    opacity 0.55s ease;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 }
 
 #menuToggle span:first-child {
@@ -102,7 +103,7 @@
   transform-origin: 0% 100%;
 }
 
-#menuToggle input:checked~span {
+#menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
@@ -111,7 +112,7 @@
 /*
    * But let's hide the middle one.
    */
-#menuToggle input:checked~span:nth-last-child(3) {
+#menuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
@@ -119,7 +120,7 @@
 /*
    * Ohyeah and the last one should go the other direction - create 'X'
    */
-#menuToggle input:checked~span:nth-last-child(2) {
+#menuToggle input:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
@@ -130,6 +131,7 @@
 #menu {
   position: absolute;
   width: 300px;
+  max-width: 250px;
   margin: -48px 0 0 -50px;
   padding: 50px;
   padding-top: 60px;
@@ -142,10 +144,8 @@
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
 
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
-
-
 
 #menu li {
   display: block;
@@ -173,17 +173,17 @@
 /*
    * And let's slide it in from the left
    */
-#menuToggle input:checked~ul {
+#menuToggle input:checked ~ ul {
   transform: none;
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 768px) {
   #menuToggle {
     display: none;
   }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
   #navbar {
     display: none;
   }

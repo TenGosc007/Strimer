@@ -1,333 +1,330 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .main {
-    opacity: 0;
-    display: none;
-    transition: opacity 1s ease-in;
-    background: rgba(255, 255, 255, 0.3);
-
+  opacity: 0;
+  display: none;
+  transition: opacity 1s ease-in;
+  background: rgba(255, 255, 255, 0.3);
 }
 
 body {
-    background-image: url(../img/linedpaper.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    flex-direction: column;
-    min-height: 100vh;
-    color: #555;
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 1.6em;
-    padding: 0;
-    margin: 0;
+  background-image: url(../img/linedpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #555;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
-    width: 80%;
-    max-width: 1400px;
-    margin: auto;
-    overflow: hidden;
+  width: 80%;
+  max-width: 1400px;
+  margin: auto;
+  overflow: hidden;
 }
 
 #showcase {
-    background-image: url('../img/makietaV2.jpg');
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-sizing: border-box;
-    margin-bottom: 30px;
-    margin-top: 0px;
-    padding-top: 50px;
+  background-image: url("../img/makietaV2.jpg");
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  padding-top: 50px;
 }
 
 #showcase h1 {
-    margin-top: 10px;
-    color: #fff;
-    background-color: rgba(51, 51, 51, 0.77);
-    font-size: 50px;
-    font-weight: bold;
-    line-height: 1.6em;
+  margin-top: 10px;
+  color: #fff;
+  background-color: rgba(51, 51, 51, 0.77);
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.6em;
 }
 
 .information {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .title {
-    padding: 30px 15px;
-    font-weight: bold;
-    margin-top: 50px;
-    font-size: 40px;
-    behavior: 'smooth';
-    line-height: 1.2;
-    color: #222;
+  padding: 30px 15px;
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 40px;
+  behavior: "smooth";
+  line-height: 1.2;
+  color: #222;
 }
 
 #about-us {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 40px;
-    flex-wrap: wrap;
-    max-width: 50%;
-    padding-right: 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  max-width: 50%;
+  padding-right: 30px;
 }
 
 #about-us p {
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 20px;
-    padding: 30px;
-    text-align: justify;
-    justify-content: center;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: justify;
+  justify-content: center;
 }
 
 #news {
-    flex: 1;
-    text-align: center;
-    height: 700px;
-    padding-left: 30px;
-    box-sizing: border-box;
-    min-height: 400px;
+  flex: 1;
+  text-align: center;
+  height: 700px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  min-height: 400px;
 }
 
 .facebook-big {
-    margin: auto;
-    display: none;
-    float: none;
-    max-width: 500px;
-    height: 100%;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.25);
-    margin-bottom: 30px;
+  margin: auto;
+  display: none;
+  float: none;
+  max-width: 500px;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.25);
+  margin-bottom: 30px;
 }
 
 .facebook-small {
-    display: none;
-    float: none;
-    max-width: 300px;
-    height: 100%;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.25);
-    margin-bottom: 30px;
+  display: none;
+  float: none;
+  max-width: 300px;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.25);
+  margin-bottom: 30px;
 }
 
 #projects {
-    margin-top: 50px;
-    padding: 10px;
+  margin-top: 50px;
+  padding: 10px;
 }
 
-
 .rows {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .rows h3 {
-    padding: 0 10px;
-    margin: 0;
+  padding: 0 10px;
+  margin: 0;
 }
 
 .box-image {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    min-width: 275px;
-    height: 240px;
-    overflow: hidden;
-    padding-bottom: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  min-width: 275px;
+  height: 240px;
+  overflow: hidden;
+  padding-bottom: 20px;
 }
 
 .box-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .box-image img:hover {
-    transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }
 
 .box1 {
-    background: rgba(255, 255, 255, 0.8);
-    flex: 1;
-    width: 330px;
-    height: 100%;
-    margin: 10px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.25);
+  background: rgba(255, 255, 255, 0.8);
+  flex: 1;
+  width: 330px;
+  height: 100%;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.25);
 }
 
 .box1 p {
-    padding: 10px;
+  padding: 10px;
 }
 
 .box2 {
-    background: rgba(255, 255, 255, 0.8);
-    flex: 1;
-    width: 330px;
-    height: 100%;
-    margin: 10px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.25);
+  background: rgba(255, 255, 255, 0.8);
+  flex: 1;
+  width: 330px;
+  height: 100%;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.25);
 }
 
 .box2 p {
-    padding: 10px;
+  padding: 10px;
 }
 
 .box3 {
-    background: rgba(255, 255, 255, 0.8);
-    flex: 1;
-    width: 330px;
-    height: 100%;
-    margin: 10px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.25);
+  background: rgba(255, 255, 255, 0.8);
+  flex: 1;
+  width: 330px;
+  height: 100%;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 0px rgba(47, 47, 47, 0.25);
 }
 
 .box3 p {
-    padding: 10px;
+  padding: 10px;
 }
 
 #contact {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .google_map {
-    flex: 1;
-    text-align: center;
-    padding-left: 30px;
-    box-sizing: border-box;
-    min-width: 300px;
+  flex: 1;
+  text-align: center;
+  padding-left: 30px;
+  box-sizing: border-box;
+  min-width: 300px;
 }
 
 #contact-info {
-    flex: 1;
-    text-align: center;
-    padding-left: 30px;
-    box-sizing: border-box;
+  flex: 1;
+  text-align: center;
+  padding-left: 30px;
+  box-sizing: border-box;
 }
 
 #contact-info .title {
-    margin-top: 0px;
-    font-weight: bold;
-    font-size: 40px;
-    behavior: 'smooth';
-    line-height: 1.2;
-    color: #222;
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 40px;
+  behavior: "smooth";
+  line-height: 1.2;
+  color: #222;
 }
 
 #contact-list {
-    border-radius: 20px;
-    box-shadow: 5px 9px 49px 0px rgba(47, 47, 47, 0.25);
-    padding: 35px 0px;
-    margin-bottom: 40px;
-    background: rgba(255, 255, 255, 0.8);
-    width: 100%;
-    position: relative;
+  border-radius: 20px;
+  box-shadow: 5px 9px 49px 0px rgba(47, 47, 47, 0.25);
+  padding: 35px 0px;
+  margin-bottom: 40px;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  position: relative;
 }
 
 #contact-list ul {
-    padding-left: 0;
-    list-style: none;
+  padding-left: 0;
+  list-style: none;
 }
 
 #contact-list ul li {
-    list-style: outside none none;
-    list-style-type: none;
-    margin-bottom: 25px;
-    line-height: 22px;
+  list-style: outside none none;
+  list-style-type: none;
+  margin-bottom: 25px;
+  line-height: 22px;
 }
 
 #contact-list p {
-    margin: 0;
-    margin-bottom: 0px;
-    font-size: 18px;
-    font-weight: 600;
-    color: #2f2f2f;
-    margin-bottom: 5px;
+  margin: 0;
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2f2f2f;
+  margin-bottom: 5px;
 }
 
 .hall_location {
-    color: #bc2611;
-    font-size: 20px;
-    font-weight: 600;
+  color: #bc2611;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 #main-footer {
-    text-align: center;
-    background-color: rgb(22, 48, 100);
-    color: silver;
-    font-size: 15px;
+  text-align: center;
+  background-color: rgb(22, 48, 100);
+  color: silver;
+  font-size: 15px;
+  width: 100%;
+}
+
+@media (max-width: 1300px) {
+  #about-us {
+    max-width: 100%;
+  }
+
+  #news {
+    height: 600px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  #showcase {
+    height: 350px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    padding-top: 50px;
+  }
+
+  #showcase h1 {
     width: 100%;
+    word-wrap: break-word;
+    font-size: 30px;
+  }
+
+  #about-us {
+    min-width: 290px;
+  }
+
+  #news {
+    padding-left: 0;
+    width: 100%;
+  }
 }
 
-@media(max-width:1300px) {
-    #about-us {
-        max-width: 100%;
-    }
+@media only screen and (max-width: 500px) {
+  .facebook-small {
+    display: block;
+    width: 100%;
+  }
 
-    #news {
-        height: 600px;
-        padding-bottom: 50px;
-    }
+  #news {
+    padding-left: 0;
+    width: 300px;
+  }
+
+  body {
+    background: #fff;
+  }
 }
 
-@media(max-width:600px) {
-    #showcase {
-        height: 350px;
-        margin-bottom: 30px;
-        margin-top: 40px;
-        padding-top: 50px;
-    }
-
-    #showcase h1 {
-        width: 100%;
-        word-wrap: break-word;
-        font-size: 30px;
-    }
-
-    #about-us {
-        min-width: 290px;
-    }
-
-    #news {
-        padding-left: 0;
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width:500px) {
-    .facebook-small {
-        display: block;
-        width: 100%;
-    }
-
-    #news {
-        padding-left: 0;
-        width: 300px;
-    }
-
-    body {
-        background: #fff;
-    }
-}
-
-@media only screen and (min-width:500px) {
-    .facebook-big {
-        display: block;
-        width: 100%;
-    }
-
+@media only screen and (min-width: 500px) {
+  .facebook-big {
+    display: block;
+    width: 100%;
+  }
 }
